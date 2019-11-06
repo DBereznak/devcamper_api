@@ -1,5 +1,5 @@
 
-const errorResponse = require('../util/errorResonse')
+const errorResponse = require('../util/errorResponse')
 const errorHandler = (error, req, res, next) => {
 let err = {...error}
 
